@@ -1,0 +1,85 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url('../img/background].jpg');
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: cover;
+
+}
+#LogReg{
+	margin: auto;
+    width: 50%;
+    color: white;
+    margin-top: 130px;
+    text-align: center;
+
+
+}
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 40px;
+    text-shadow:0 0 7px black;
+    outline: none;
+
+}
+p{
+	font-size: 40px;
+	display: inline;
+	margin: 0 10px 0 10px;	
+}
+
+#mainDiv{
+	background-color: rgba(38,70,255,0.1);
+	padding: 2%;
+    margin: auto;
+    width: 50%;
+    margin-top: 100px;
+    box-shadow:0 0 7px black;
+
+}
+#Div{
+display: inline;
+}
+#Div{
+display: inline;
+
+}
+#submitDiv{
+display: inline;
+
+}
+::placeholder { 
+    color: black;
+    opacity: 1; 
+}
+
+#Div  input{
+	
+	border-style: solid;
+	border-width: 1.5px;
+	padding: 8px;
+	width: 36%;
+	background: none;
+	outline: none;
+
+}
+
+#submitDiv button{
+	border-style: solid;
+	border-color: black;
+	border-width: 1.5px;
+	color: white;
+	width: 20%;
+	background-color: black;
+	padding: 7px;
+	outline: none;
+
+}
+#login{
+	background-color: rgba(38,70,255,0.1);
+	padding: 20px;
+    box-shadow:0 0 7px black;
+    border-radius: 20px;
+}

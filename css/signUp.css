@@ -1,0 +1,108 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url('../img/background].jpg');
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: cover;
+
+}
+#LogReg{
+	margin: auto;
+    width: 50%;
+    color: white;
+    margin-top: 130px;
+    /*padding-left: 20%; */
+    text-align: center;
+
+
+}
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 40px;
+    text-shadow:0 0 7px black;
+    outline: none;
+    
+
+}
+p{
+	font-size: 40px;
+	display: inline;
+	margin: 0 10px 0 10px;	
+}
+
+#mainDiv{
+	background-color: rgba(38,70,255,0.1);
+	padding: 20px;
+    margin: auto;
+    width: 30%;
+    margin-top: 100px;
+    /*shape-outside: black 30px;*/
+    box-shadow:0 0 7px black;
+
+}
+
+::placeholder { 
+    color: black;
+    opacity: 1; 
+}
+#Div{
+	padding: 5px;
+}
+
+#Div  input{
+	
+	border-style: solid;
+	border-width: 1.5px;
+	padding: 8px;
+	width: 100%;
+	background: none;
+	outline: none;
+	padding: 
+
+}
+
+#submitDiv button{
+	border-style: solid;
+	border-color: black;
+	border-width: 1.5px;
+	color: white;
+	width: 100%;
+	background-color: black;
+	padding: 7px;
+	outline: none;
+
+}
+#signUp{
+	background-color: rgba(38,70,255,0.1);
+	padding: 20px;
+    box-shadow:0 0 7px black;
+    border-radius: 20px;
+
+}
+
+.form-control{
+	width: 49%;
+	/*align-items: center;*/
+	display: inline;
+}
+.form-group{
+	display: inline;
+}
+select{
+  background-color:#000; 
+  -moz-opacity:.40;
+  opacity:.40;
+  display: inline;
+  width: 30px;
+}
+
+select option{
+  background-color: #000;
+  filter:alpha(opacity=40);
+  -moz-opacity:.40;
+  opacity:.40;
+  color: blace;
+}
+select:invalid { color: gray; }

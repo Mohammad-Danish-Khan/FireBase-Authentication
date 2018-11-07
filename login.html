@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign In</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body onLoad="noBack();" onpageshow="if (event.persisted) noBack();" onUnload="">
+
+	<div id="LogReg">	
+		<a id="login" href="login.html">Login</a>
+		<p>/</p>
+		<a href="signUp.html">Register</a>
+	</div>
+
+	<div id="mainDiv">
+		<div id="Div">
+			<input id="email" type="email" name="" placeholder="Email Address">
+		</div>
+
+		<div id="Div">
+			<input id="password" type="password" name="" placeholder="Password">
+		</div>
+
+		<div id="submitDiv">
+			<button onclick="signIn()">Login</button>
+		</div>
+	</div>
+<script type="text/javascript">
+		window.history.forward();
+        function noBack()
+        {
+            window.history.forward();
+        }
+	</script>
+
+	<script type="text/javascript"  src="js/signIn.js"></script>
+	
+</body>
+</html>
